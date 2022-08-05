@@ -1,2 +1,6 @@
-# Predicting_ICU_LOS
-Prediction of ICU-LOS as a continuous target variable. in-house nested cross validation, HotEncoder, and feature importance
+# Predicting Intensive Care Unit (ICU) length of stay as continous variable
+In this code, we perform a full cleaning and predictive model deployment. 
+
+We wrote a nested-cross validation code doing grid search. 
+The GridSearch function was not optimal and it was taking too long. 
+Our in-house code worked way faster and it is simply based on nested for loops
